@@ -9,7 +9,7 @@ I like working close to the machine: Linux infrastructure, Go services, and C. L
 - **[mikush](https://github.com/KentFarr/mikush)** (C) — a Unix shell written from scratch: fork/exec process execution, GNU readline line editing, and persistent history. Early days, with more on the way.
 - **[ratelimiter-ts](https://github.com/KentFarr/ratelimiter-ts)** (TypeScript, [on npm](https://www.npmjs.com/package/@kentfarr/ratelimiter-ts)) — a framework-agnostic rate limiter with fixed- and sliding-window algorithms, pluggable storage, and Express middleware, tested with Vitest.
 - **[LangGo](https://langgo.co)** (React, Node.js, Firebase) — Japanese vocabulary flashcards generated from your own PDFs and scheduled with spaced repetition. Self-hosted on a Raspberry Pi behind a Cloudflare Tunnel.
-- **kuu.gg** (Go, PostgreSQL, Docker) — a game-server hosting service I built and ran: a Go backend that turns a Stripe payment into a running Pterodactyl game server, on hardened Linux hosts. Currently offline.
+- **[kuu-api](https://github.com/KentFarr/kuu-api)** (Go, PostgreSQL, Docker) — the backend behind kuu.gg, a game-server hosting service I built and ran. It turns a Stripe payment into a running Pterodactyl game server, with idempotent webhooks, rollback on partial failure, an email queue, and Prometheus metrics. The service itself is currently offline.
 
 ## Stack
 
