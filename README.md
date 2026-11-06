@@ -8,13 +8,13 @@ I like working close to the machine: Linux infrastructure, Go services, and C. L
 
 - **[mikush](https://github.com/KentFarr/mikush)** (C) — a Unix shell written from scratch: fork/exec process execution, GNU readline line editing, and persistent history. Early days, with more on the way.
 - **[ratelimiter-ts](https://github.com/KentFarr/ratelimiter-ts)** (TypeScript, [on npm](https://www.npmjs.com/package/@kentfarr/ratelimiter-ts)) — a framework-agnostic rate limiter with fixed- and sliding-window algorithms, pluggable storage, and Express middleware, tested with Vitest.
-- **[LangGo](https://langgo.co)** (React, Node.js, Firebase) — Japanese vocabulary flashcards generated from your own PDFs and scheduled with spaced repetition. Self-hosted on a Raspberry Pi behind a Cloudflare Tunnel.
+- **[LangGo](https://github.com/KentFarr/LangGO)** (TypeScript, React, Express, PostgreSQL, [live at langgo.co](https://langgo.co)) — turns Japanese PDFs, e-books, subtitles, or web articles into JLPT-leveled flashcards with OpenAI-written readings, meanings, and mnemonics, reviewed with spaced repetition and exportable to Anki. Self-hosted Better Auth accounts, an SSRF-hardened page fetcher, and Docker Compose deployment on my OVH server.
 - **[kuu-api](https://github.com/KentFarr/kuu-api)** (Go, PostgreSQL, Docker) — the backend behind kuu.gg, a game-server hosting service I built and ran. It turns a Stripe payment into a running Pterodactyl game server, with idempotent webhooks, rollback on partial failure, an email queue, and Prometheus metrics. The service itself is currently offline.
 
 ## Stack
 
 - **Languages:** C, Go, TypeScript, Python, SQL
-- **Infrastructure:** Linux, Docker, PostgreSQL, nginx, Cloudflare, Tailscale
+- **Infrastructure:** Linux, Docker, PostgreSQL, nginx, Cloudflare
 - **Tools:** Git, Make, clang, Burp Suite
 - **Daily driver:** CachyOS (Arch)
 
@@ -24,7 +24,7 @@ I like working close to the machine: Linux infrastructure, Go services, and C. L
 - Learning Rust
 - Working through OSTEP and TLPI on the way to Linux kernel contributions
 - Bug hunting on HackerOne
-- Studying for the JLPT N2 in December (日本語: 中上級)
+- Studying for the JLPT N2, aiming for July 2027 (日本語: 中上級)
 
 Outside of code: physics, history, RPGs, and anything to do with space.
 
